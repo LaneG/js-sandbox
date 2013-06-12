@@ -21,16 +21,6 @@
     padding-left: 10px;
     padding-bottom: 10px;
 }
-H1 {
-    font-family:'Roboto Slab', serif;
-    font-size: 25px;
-    letter-spacing: 2.5px;
-}
-p {
-    font-family: sans-serif;
-    font-size: 14px;
-    padding-top: none;
-}
 #goButton {
     background: url('http://www.commentnation.com/backgrounds/images/diagonal_pin_stripes_background_gray.gif');
     border-radius: 5px;
@@ -38,6 +28,24 @@ p {
     -moz-border-radius: 5px;
     color: #fff;
     font-size: 20px;
+}
+
+H1 {
+    font-family:'Roboto Slab', serif;
+    font-size: 25px;
+    letter-spacing: 2.5px;
+}
+
+
+H2 {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 14px;
+    padding-top: none;
 }
 
 a:active { 
@@ -59,6 +67,11 @@ a:hover {
 
 a:focus { 
     color: #000;
+}
+
+#header a {
+    font-family: sans-serif;
+    font-size: .75em;
 }
 
 .reverse-link a:active { 
@@ -87,4 +100,8 @@ a:focus {
     float: right;
     padding-right: 10px;
     padding-top: 10px;
+}
+
+.success {
+    color: green;
 }

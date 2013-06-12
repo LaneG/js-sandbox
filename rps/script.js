@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#button').click(function() {
+    $('#goButton').click(function() {
         var userChoice = $('input[name="userChoiceInput"]').val();
         $('.list').append('<div class="item"><p>You pick ' + userChoice + '</p></div>');
 
@@ -12,8 +12,9 @@ $(document).ready(function() {
                     computerChoice = "scissors";
                     }
 
-        $('.list').append('<div class="item"><p>I pick ' + computerChoice + '</p></div>');
-        $('.list').append('<div class="item"><p>' + compare(computerChoice, userChoice) + '</p></div>');
+        $('.item').remove();
+        $('.list').append('<div class="item"><br /><p>You picked ' + userChoice + ', I picked ' + computerChoice + '</p></div>');
+        $('.list').append('<div class="item"><h2 class="success">' + compare(computerChoice, userChoice) + '</h2></div>');
         });
 
     $(document).on('click','.item', function() {
@@ -21,4 +22,3 @@ $(document).ready(function() {
     });
 
 });
-
