@@ -1,27 +1,26 @@
 <doctype html!>
 <html>
-
 <head>
-	<title>Number Checker</title>
-	<link type="text/css" rel="stylesheet" href="style.css" media="screen"></link>
+	<title>Simple Number Checker</title>
+	<link type="text/css" rel="stylesheet" href="../styles/style.css" media="screen"></link>
 </head>
 
 <body>
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-	<script src="scripts.js" type="text/javascript"></script>
-
-<div id=container>
-    <div id=header>
-         <h1>Simple Number Checker</h1>
-
+    <div id='container'>
+        <div id='header'>
+            <span class='reverse-link pull-right'><a href="../index.html">back</a></span>
+            <h1>Simple Number Checker</h1>
+        </div>
+        <div id='main'>
+            <!-- <p>Is your number divisible by two? Click "Go!" and I'll prompt you to enter the <a href="#" onClick="confirmClick(); return false">number</a> to check.</p> -->
+            <p>Is your number divisible by two? Click "Go!" and I'll prompt you to enter the <a href="#" id='hint'>number</a> to check.</p>
+            <button id='goButton'>Go!</button>
+            <div id='returnedResult'></div>
+        </div>
     </div>
-    <div id=main>
-        <!-- <p>Is your number divisible by two? Click "Go!" and I'll prompt you to enter the <a href="#" onClick="confirmClick(); return false">number</a> to check.</p> -->
-        <p>Is your number divisible by two? Click "Go!" and I'll prompt you to enter the <a href="#" id='hint'>number</a> to check.</p>
-        <button id='goButton'>Go!</button>
-        <div id='returnedResult'></div>
-    </div>
-</div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="scripts.js" type="text/javascript"></script>
 
 </body>
 

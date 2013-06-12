@@ -7,7 +7,7 @@
 #container {
     border: 1px solid black;
     margin: auto;
-    width: 400px;
+    width: 500px;
 }
 #header {
     background: #000;
@@ -16,6 +16,7 @@
     margin: 0;
     padding-left: 10px;
 }
+
 #main {
     padding-left: 10px;
     padding-bottom: 10px;
@@ -37,4 +38,53 @@ p {
     -moz-border-radius: 5px;
     color: #fff;
     font-size: 20px;
+}
+
+a:active { 
+    color: #999;
+}
+
+
+a:link { 
+    color: #000;
+}
+    
+a:visited { 
+    color: #000;
+}
+
+a:hover { 
+    color: #999;
+}
+
+a:focus { 
+    color: #000;
+}
+
+.reverse-link a:active { 
+    color: #000;
+}
+
+.reverse-link a:link { 
+    color: #999;
+    text-decoration: none
+}
+    
+.reverse-link a:visited { 
+    color: #999;
+}
+
+.reverse-link a:hover { 
+    color: #999;
+}
+
+.reverse-link a:focus { 
+    color: #999;
+}
+
+.pull-right {
+    display: inline-block;
+    float: right;
+    padding-right: 10px;
+    padding-top: 10px;
 }
