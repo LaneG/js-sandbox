@@ -1,14 +1,23 @@
 var rps=function() {
     var userChoice = $('input[name="userChoiceInput"]').val().toLowerCase();
+    if (userChoice=="") {
+        alert('Please type rock, paper or scissors in the field and click the "Go!" button.');
+        return false;
+    } else if (userChoice!=="rock"&&userChoice!=="paper"&&userChoice!=="scissors") { 
+        $('.item').remove();
+        $('.result').append('<div class="item failure"><p>What is "' + userChoice + '"? Please type rock, paper or scissors.</p></div>');
+        $('input[name="userChoiceInput"]').val("");
+        return false;
+    }
 
     var computerChoice = Math.random();
-        if (computerChoice <= 0.34) {
+    if (computerChoice <= 0.34) {
         computerChoice = "rock";
-            } else if(computerChoice <= 0.66) {
-            computerChoice = "paper";
-                } else {
-                computerChoice = "scissors";
-                }
+    } else if(computerChoice <= 0.66) {
+        computerChoice = "paper";
+    } else {
+        computerChoice = "scissors";
+    }
 
     // $('.result').append('<div class="item"><p>what is ' + userChoice + '? I only understand the words rock, paper and scissors.</p></div>'); 
     $('.item').remove();
