@@ -109,3 +109,7 @@ a:focus {
 .success {
     color: green;
 }
+
+.failure {
+    color: red;
+}
