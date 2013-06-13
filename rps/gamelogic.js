@@ -19,7 +19,6 @@ var rps=function() {
         computerChoice = "scissors";
     }
 
-    // $('.result').append('<div class="item"><p>what is ' + userChoice + '? I only understand the words rock, paper and scissors.</p></div>'); 
     $('.item').remove();
     $('.result').append('<div class="item"><p>You picked ' + userChoice + ', I picked ' + computerChoice + '.</p></div>');
     $('.result').append('<div class="item"><h2 class="success">' + compare(computerChoice, userChoice) + '</h2></div>');
