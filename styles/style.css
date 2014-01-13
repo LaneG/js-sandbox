@@ -1,17 +1,21 @@
 body {
     font-family: 'Roboto', sans-serif; 
     }
+
 p {
     font-size: 16px;
     padding-top: none;
 }
+
 H1 {
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 45px;
     }
+
 form {
     margin-bottom: 10px;
 }
+
 button {
     background: url('http://www.commentnation.com/backgrounds/images/diagonal_pin_stripes_background_gray.gif');
     border-radius: 5px;
@@ -20,6 +24,62 @@ button {
     color: #fff;
     font-size: 20px;
     }
+
+a:active { 
+    color: #999;
+}
+a:link { 
+    color: #000;
+    text-decoration: none
+}
+    
+a:visited { 
+    color: #000;
+}
+
+a:hover { 
+    color: #999;
+    text-decoration: underline;
+}
+
+a:focus { 
+    color: #000;
+}
+
+#header a {
+    font-family: sans-serif;
+    font-size: .75em;
+}
+
+.navlink {
+    float: right;
+    position: relative;
+    top: -110px;
+    right: 15px;
+    }
+
+.reverse-link a:active { 
+    color: #000;
+}
+
+.reverse-link a:link { 
+    color: #999;
+    text-decoration: none
+}
+    
+.reverse-link a:visited { 
+    color: #999;
+}
+
+.reverse-link a:hover { 
+    color: #cdcdcd;
+    text-decoration: underline;
+}
+
+.reverse-link a:focus { 
+    color: #999;
+}
+
 #container {
     border: 1px solid black;
     margin: auto;
@@ -52,10 +112,5 @@ button {
     color: #fff;
     font-size: 20px;
     }
-.navlink {
-    float: right;
-    position: relative;
-    top: -110px;
-    right: 15px;
-    }
+
 
