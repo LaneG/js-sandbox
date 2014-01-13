@@ -3,7 +3,7 @@ $(document).ready(function () {
         var number = prompt("Enter a number", "");
         var answer = isEven(number);
         $('.item').remove();
-        $('#returnedResult').append('<p class="item">' + number + ' is ' + answer + '.</p>');
+        $('#returnedResult').append('<h2 class="item">' + number + ' is ' + answer + '</h2>');
     });
     $('#hint').click(function () {
         return alert("Whole numbers only (no fractions). No negative numbers or letters either, please!")
@@ -18,7 +18,7 @@ function showPrompt() {
 function isEven(number) {
     var answer;
     if (number % 2 === 0) {
-        answer = "is divisble by two";
+        answer = "is divisble by two.";
     } else if (isNaN(number)) {
         answer = "is not a number, please try again.";
     } else {
