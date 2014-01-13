@@ -95,7 +95,8 @@ a:focus {
     }
 
 #main {
-    padding: 10px;
+    height: 250px;
+    padding: 20px;
     }
 
 #footer {
