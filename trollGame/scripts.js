@@ -14,11 +14,11 @@ function bout(troll) {
         /* return ("You chose 'FIGHT.'"); */
         var strong = prompt("Are you strong? (Yes or No)?").toUpperCase();
             while (strong != 'YES' && strong != 'NO') {
-                var strong = prompt("I didn't understand you. Are you strong? (Yes or No)?", "").toUpperCase();
-            } 
+                var strong = prompt("I didn't understand you. Are you strong? (type the letters 'Yes' or 'No')", "").toUpperCase();
+            }
         var sword = prompt("Do you have a sword? (Yes or No)?").toUpperCase();
             while (sword != 'YES' && sword != 'NO') {
-                var sword = prompt("I didn't understand you. Do you have a sword? (Yes or No)?", "").toUpperCase();
+                var sword = prompt("I didn't understand you. Do you have a sword? (type the letters 'Yes' or 'No')", "").toUpperCase();
             } 
         if (strong === 'NO' && sword === 'NO') {
             return ("What were you thinking, attacking troll without a sword? She smashes your head with her fist and sucks your brains out of your ears. You lose."); 
@@ -34,7 +34,7 @@ function bout(troll) {
         /* console.log("You chose 'KISS.'"); */
         var tall = prompt("Can you reach her cheek? (Yes or No)?").toUpperCase();
             while (tall != 'YES' && tall != 'NO') {
-                tall = prompt("I didn't understand you. Are you tall? (Yes or No)?", "").toUpperCase();
+                tall = prompt("I didn't understand you. Are you tall? (type the letters 'Yes' or 'No')", "").toUpperCase();
             } 
         if (tall === 'YES') {
             return ("The troll is charmed by your gesture and lets you go. You win.");
@@ -46,11 +46,11 @@ function bout(troll) {
         /* console.log("You chose 'BRIBE.'"); */
         var gold = prompt("Do you have gold? (Yes or No)?").toUpperCase();
             while (gold != 'YES' && gold != 'NO') {
-                var gold = prompt("I didn't understand you. Do you have gold? (Yes or No?)", "").toUpperCase();
+                var gold = prompt("I didn't understand you. Do you have gold? (type the letters 'Yes' or 'No')", "").toUpperCase();
             } 
         var gems = prompt("Do you have any gems? (Yes or No?").toUpperCase();
             while (gems != 'YES' && gems != 'NO') {
-                var gems = prompt("I didn't understand you. Do you have gems? (Yes or No?)", "").toUpperCase();
+                var gems = prompt("I didn't understand you. Do you have gems? (type the letters 'Yes' or 'No')", "").toUpperCase();
             } 
         if (gold === 'YES' || gems === 'YES') {
             return ("The troll accepts your bribe and lets you go. You win!");
@@ -59,6 +59,6 @@ function bout(troll) {
         }
         break;
         default:
-        return ("I didn't understand your choice. Click the 'Go!' button and try again, this time picking 'FIGHT' 'KISS' or 'BRIBE.'");
+        return ("I didn't understand your choice. Type 'FIGHT' 'KISS' or 'BRIBE' and click the 'Go!'' button.");
     }
 } 
