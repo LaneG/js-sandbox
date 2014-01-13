@@ -85,6 +85,7 @@ a:focus {
     margin: auto;
     width: 600px;
     }
+
 #header {
     background: #000;
     border: black 1px solid;
@@ -92,18 +93,22 @@ a:focus {
     margin: 0;
     padding-left: 10px;
     }
+
 #main {
     padding-left: 10px;
     padding-bottom: 10px;
     }
+
 #footer {
     margin: auto;
     text-align: right;
     width: 600px;
 }
+
 #footer p {
         font-size: 12px;
     }
+
 #goButton {
     background: url('http://www.commentnation.com/backgrounds/images/diagonal_pin_stripes_background_gray.gif');
     border-radius: 5px;
@@ -112,5 +117,7 @@ a:focus {
     color: #fff;
     font-size: 20px;
     }
+
+
 
 
