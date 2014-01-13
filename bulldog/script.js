@@ -3,6 +3,6 @@ $(document).ready(function() {
 });
 
 $( "button" ).click(function() {
-	$( "#dog" ).toggle( "puff", 750 );
+	$( "#dog" ).toggle( "slide", 750 );
 });
 	
