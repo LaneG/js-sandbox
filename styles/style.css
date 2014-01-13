@@ -5,7 +5,6 @@ body {
 p {
     font-size: 16px;
     padding-top: none;
-    padding-right: 10px;
 }
 
 H1 {
@@ -96,8 +95,7 @@ a:focus {
     }
 
 #main {
-    padding-left: 10px;
-    padding-bottom: 10px;
+    padding: 10px;
     }
 
 #footer {
