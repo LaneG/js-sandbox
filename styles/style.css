@@ -95,8 +95,8 @@ a:focus {
     }
 
 #main {
-    padding-left: 10px;
-    padding-bottom: 10px;
+    height: 250px;
+    padding: 20px;
     }
 
 #footer {
@@ -118,6 +118,9 @@ a:focus {
     font-size: 20px;
     }
 
-
+#dog {
+    width: 230px;
+    margin: auto;
+}
 
 
