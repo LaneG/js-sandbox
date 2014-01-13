@@ -48,7 +48,7 @@ function bout(troll) {
             while (gold != 'YES' && gold != 'NO') {
                 var gold = prompt("I didn't understand you. Do you have gold? (type the word 'Yes' or 'No')", "").toUpperCase();
             } 
-        var gems = prompt("Do you also have gems? (Yes or No?").toUpperCase();
+        var gems = prompt("Do you also have gems? (Yes or No?)").toUpperCase();
             while (gems != 'YES' && gems != 'NO') {
                 var gems = prompt("I didn't understand you. Do you have gems? (type the word 'Yes' or 'No')", "").toUpperCase();
             } 
