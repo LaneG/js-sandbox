@@ -1,9 +1,3 @@
-@font-face {
-    font-family:'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(http://themes.googleusercontent.com/static/fonts/robotoslab/v1/dazS1PrQQuCxC3iOAJFEJRbnBKKEOwRKgsHDreGcocg.woff) format('woff');
-}
 #container {
     border: 1px solid black;
     margin: auto;

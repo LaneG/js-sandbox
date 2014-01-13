@@ -1,27 +1,36 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>rock, paper, scissors</title>
-    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Rock, Paper, Scissors</title>
+    <link type="text/css" rel="stylesheet" href="../styles/style.css" media="screen"></link>
+</head>
+
+<body>
+    <div id='container'>
+        <div id='header'>
+            <h1>Rock, Paper, Scissors</h1>
+            <a class='navlink' href="../index.html">home</a>
+        </div>
+        <div id='main'>
+            <p>Do you choose rock, paper or scissors?</p>
+
+            <!-- change this to be a drop down or radio buttons -->
+            <form name="userChoiceForm">
+                <input type="text" name="userChoiceInput"/>
+            </form>
+            <!-- change this to be a drop down or radio buttons -->
+
+            <button id='goButton'>Go!</button>
+            <div class='list'></div>
+        </div>
+    </div>
+
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="script.js"></script>
     <script type="text/javascript" src="gamelogic.js"></script>
-</head>
-    <body>
-        <h1>Let's play a game!</h1>
-        <p>Do you choose rock, paper or scissors?</p>
+</body>
 
-        <!-- change this to be a drop down or radio buttons -->
-        <form name="userChoiceForm">
-            <input type="text" name="userChoiceInput"/>
-        </form>
-        <!-- change this to be a drop down or radio buttons -->
-
-        <div id="button">Go!</div>
-        <br/>
-        <div class="list"></div>
-
-    </body>
 </html>
 
 

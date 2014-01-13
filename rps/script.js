@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $('#button').click(function() {
+    $('#goButton').click(function() {
         var userChoice = $('input[name="userChoiceInput"]').val();
         $('.list').append('<div class="item"><p>You pick ' + userChoice + '</p></div>');
 
@@ -21,4 +21,3 @@ $(document).ready(function() {
     });
 
 });
-
