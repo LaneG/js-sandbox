@@ -3,11 +3,8 @@ $(document).ready(function () {
         var number = prompt("Enter a number", "");
         var answer = isEven(number);
         $('.item').remove();
-<<<<<<< HEAD:number-checker/scripts.js
         $('#returnedResult').append('<p class="item">' + number + ' is ' + answer + '</p>');
-=======
         $('#returnedResult').append('<h2 class="item">' + number + ' is ' + answer + '</h2>');
->>>>>>> edf9626ed13ab740d75a3cd3a301de6f69ab2022:numberChecker/scripts.js
     });
     $('#hint').click(function () {
         return alert("Whole numbers only (no fractions). No negative numbers or letters either, please!")
