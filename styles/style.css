@@ -1,9 +1,56 @@
-@font-face {
-    font-family:'Roboto Slab';
-    font-style: normal;
-    font-weight: 700;
-    src: local('Roboto Slab Bold'), local('RobotoSlab-Bold'), url(http://themes.googleusercontent.com/static/fonts/robotoslab/v1/dazS1PrQQuCxC3iOAJFEJRbnBKKEOwRKgsHDreGcocg.woff) format('woff');
+body {
+    font-family: 'Roboto', sans-serif; 
+    }
+
+p {
+    font-size: 16px;
+    padding-top: none;
 }
+
+H1 {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 45px;
+    }
+
+form {
+    margin-bottom: 10px;
+}
+
+button {
+    background: url('http://www.commentnation.com/backgrounds/images/diagonal_pin_stripes_background_gray.gif');
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    color: #fff;
+    font-size: 20px;
+    }
+
+a:active { 
+    color: #999;
+}
+a:link { 
+    color: #000;
+    text-decoration: none
+}
+    
+a:visited { 
+    color: #000;
+}
+
+a:hover { 
+    color: #999;
+    text-decoration: underline;
+}
+
+a:focus { 
+    color: #000;
+}
+
+#header a {
+    font-family: sans-serif;
+    font-size: .75em;
+}
+<<<<<<< HEAD
 body {
     font-family: Tahoma, sans-serif;
     font-size: 1em;
@@ -24,25 +71,80 @@ p {
     font-family: sans-serif;
     font-size: 14px;
     padding-top: none;
+=======
+
+.navlink {
+    float: right;
+    position: relative;
+    top: -110px;
+    right: 15px;
+    }
+
+.reverse-link a:active { 
+    color: #000;
+}
+
+.reverse-link a:link { 
+    color: #999;
+    text-decoration: none
+}
+    
+.reverse-link a:visited { 
+    color: #999;
+}
+
+.reverse-link a:hover { 
+    color: #cdcdcd;
+    text-decoration: underline;
+}
+
+.reverse-link a:focus { 
+    color: #999;
+>>>>>>> edf9626ed13ab740d75a3cd3a301de6f69ab2022
 }
 
 #container {
     border: 1px solid black;
     margin: auto;
     width: 600px;
+<<<<<<< HEAD
 }
+=======
+    }
+
+>>>>>>> edf9626ed13ab740d75a3cd3a301de6f69ab2022
 #header {
     background: #000;
     border: black 1px solid;
     color: #fff;
     margin: 0;
     padding-left: 10px;
+<<<<<<< HEAD
 }
 
 #main {
     padding-left: 10px;
     padding-bottom: 10px;
 }
+=======
+    }
+
+#main {
+    height: 250px;
+    padding: 20px;
+    }
+
+#footer {
+    margin: auto;
+    text-align: right;
+    width: 600px;
+}
+
+#footer p {
+        font-size: 12px;
+    }
+
+>>>>>>> edf9626ed13ab740d75a3cd3a301de6f69ab2022
 #goButton {
     background: url('http://www.commentnation.com/backgrounds/images/diagonal_pin_stripes_background_gray.gif');
     border-radius: 5px;
@@ -50,6 +152,7 @@ p {
     -moz-border-radius: 5px;
     color: #fff;
     font-size: 20px;
+<<<<<<< HEAD
 }
 
 a:active { 
@@ -136,3 +239,13 @@ a:focus {
     margin-left: 100px;
     margin-bottom: 25px;
 }
+=======
+    }
+
+#dog {
+    width: 230px;
+    margin: auto;
+}
+
+
+>>>>>>> edf9626ed13ab740d75a3cd3a301de6f69ab2022
