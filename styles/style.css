@@ -106,10 +106,33 @@ a:focus {
     padding-top: 10px;
 }
 
+.pull-left {
+    display: inline-block;
+    float: left;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
 .success {
     color: green;
 }
 
 .failure {
     color: red;
+}
+
+/* =========  STYLES FOR RPS2 ============== */
+
+.letter-button-strip {
+    /* border: 1px solid red; */
+    margin-left: 100px;
+    margin-top: 50px;
+    padding-top: 5px;
+    padding-left: 10px;
+}
+
+.rps-jpg {
+   /*  border: 1px solid blue; */
+    margin-left: 100px;
+    margin-bottom: 25px;
 }
