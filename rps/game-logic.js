@@ -32,43 +32,34 @@ var compare=function (choice1, choice2) {
 
     if (choice1 === "rock") {
         if (choice2 === "scissors") {
-<<<<<<< HEAD
             return "rock wins.";
         } else {
             return "paper wins.";
-=======
             return "Rock wins.";
         } else {
             return "Paper wins.";
->>>>>>> edf9626ed13ab740d75a3cd3a301de6f69ab2022
         }
     }
 
     if (choice1 === "paper") {
         if (choice2 === "rock") {
-<<<<<<< HEAD
             return "paper wins.";
         } else {
             return "scissors wins.";
-=======
             return "Paper wins.";
         } else {
             return "Scissors wins.";
->>>>>>> edf9626ed13ab740d75a3cd3a301de6f69ab2022
         }
     }
 
     if (choice1 === "scissors") {
         if (choice2 === "rock") {
-<<<<<<< HEAD
             return "rock wins.";
         } else {
             return "scissors wins.";
-=======
             return "Rock wins.";
         } else {
             return "Scissors wins.";
->>>>>>> edf9626ed13ab740d75a3cd3a301de6f69ab2022
         }
     }
 };
