@@ -3,7 +3,6 @@ $(document).ready(function () {
         var number = prompt("Enter a number", "");
         var answer = isEven(number);
         $('.item').remove();
-        $('#returnedResult').append('<p class="item">' + number + ' is ' + answer + '</p>');
         $('#returnedResult').append('<h2 class="item">' + number + ' is ' + answer + '</h2>');
     });
     $('#hint').click(function () {
