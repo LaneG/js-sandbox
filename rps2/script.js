@@ -8,15 +8,15 @@ $(document).ready(function(){
           case 'button-r':
               userChoice='r';
               var computerChoice = pickComputerOption();
-              console.log(userChoice);
-              console.log(computerChoice);
+              // console.log(userChoice);
+              // console.log(computerChoice);
 
-              var showImage = "images/result-"+userChoice+"v"+computerChoice+".jpg";
-              console.log(showImage)
+              var showImage = "../rps2/images/result-"+userChoice+"v"+computerChoice+".jpg";
+              // console.log(showImage)
 
-              // $('.item').remove();
-              // $('#result').prepend('<img class="item" src="images/result-rvs.jpg" >')
-              // $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
+              $('.item').remove();
+              $('#result').prepend('<img class="item" src=" '+ showImage +' ">');
+              $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
 
           break;
           case 'button-p':
@@ -25,8 +25,8 @@ $(document).ready(function(){
               console.log(userChoice);
               console.log(computerChoice);
 
-              var showImage = "images/result-"+userChoice+"v"+computerChoice+".jpg";
-              console.log(showImage)
+              var showImage = "../rps2/images/result-"+userChoice+"v"+computerChoice+".jpg";
+              // console.log(showImage)
 
               $('.item').remove();
               $('#result').prepend('<img class="item" src="images/result-pvs.jpg" >')
@@ -39,8 +39,8 @@ $(document).ready(function(){
               console.log(userChoice);
               console.log(computerChoice);
 
-              var showImage = "images/result-"+userChoice+"v"+computerChoice+".jpg";
-              console.log(showImage)
+              var showImage = "../rps2/images/result-"+userChoice+"v"+computerChoice+".jpg";
+              // console.log(showImage)
 
               $('.item').remove();
               $('#result').prepend('<img class="item" src="images/result-svs.jpg" >')
