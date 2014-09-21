@@ -1,3 +1,6 @@
+var userChoice = "foo";
+
 $(document).ready(function () {
-  $('#goButton').click(pickComputerOption);   
+  $('.letter-button').click(pickComputerOption);    
+
 });
