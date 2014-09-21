@@ -1,5 +1,5 @@
-// var mystring = "hello world";
-// console.log(mystring);
+var mystring = "you can do this, lane!!!!";
+console.log(mystring);
 
 var computerOptions = ["r", "p", "s"];
 
