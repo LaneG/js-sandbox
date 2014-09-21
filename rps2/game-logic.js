@@ -10,7 +10,7 @@ var pickComputerOption = function () {
   // return computerChoice;
 
   $('.item').remove();
-  $('#result').append('<h2 class="item">' + computerChoice + '</h2>');
-
+  // $('#result').append('<h2 class="item">' + computerChoice + '</h2>');
+  $('#result').prepend('<img class="item" src="images/result-rvs.jpg" />')
 
 };
