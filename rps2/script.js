@@ -1,28 +1,40 @@
-// var userChoice = "foo";
+var userChoice = 'not set';
 
-// $(document).ready(function () {
-
-//   $('.letter-button').click(pickComputerOption);
-
-// });
-
-var userChoice = 'foo';
 $(document).ready(function(){
+  
+  $('.letter-button').click(function() {
 
-  $('.letter-button').click(pickComputerOption);
-
-  $(".letter-button").click(function() {
       switch(this.id) {
           case 'button-r':
               userChoice='r';
+              var computerChoice = pickComputerOption();
+              console.log(userChoice);
+              console.log(computerChoice);
+              $('.item').remove();
+              $('#result').prepend('<img class="item" src="images/result-rvs.jpg" />')
+              $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
+
           break;
           case 'button-p':
-               userChoice='p';
+              userChoice='p';
+              var computerChoice = pickComputerOption();
+              console.log(userChoice);
+              console.log(computerChoice);
+              $('.item').remove();
+              $('#result').prepend('<img class="item" src="images/result-pvs.jpg" />')
+              $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
+
           break;
           case 'button-s':
-              someVar='s';
+              userChoice='s';
+              var computerChoice = pickComputerOption();
+              console.log(userChoice);
+              console.log(computerChoice);
+              $('.item').remove();
+              $('#result').prepend('<img class="item" src="images/result-svs.jpg" />')
+              $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
+
           break;
-      }
-      $("#someContainer").html(someVar);
+      }     
   });
 });
