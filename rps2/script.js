@@ -10,9 +10,13 @@ $(document).ready(function(){
               var computerChoice = pickComputerOption();
               console.log(userChoice);
               console.log(computerChoice);
-              $('.item').remove();
-              $('#result').prepend('<img class="item" src="images/result-rvs.jpg" />')
-              $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
+
+              var showImage = "images/result-"+userChoice+"v"+computerChoice+".jpg";
+              console.log(showImage)
+
+              // $('.item').remove();
+              // $('#result').prepend('<img class="item" src="images/result-rvs.jpg" >')
+              // $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
 
           break;
           case 'button-p':
@@ -20,8 +24,12 @@ $(document).ready(function(){
               var computerChoice = pickComputerOption();
               console.log(userChoice);
               console.log(computerChoice);
+
+              var showImage = "images/result-"+userChoice+"v"+computerChoice+".jpg";
+              console.log(showImage)
+
               $('.item').remove();
-              $('#result').prepend('<img class="item" src="images/result-pvs.jpg" />')
+              $('#result').prepend('<img class="item" src="images/result-pvs.jpg" >')
               $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
 
           break;
@@ -30,8 +38,12 @@ $(document).ready(function(){
               var computerChoice = pickComputerOption();
               console.log(userChoice);
               console.log(computerChoice);
+
+              var showImage = "images/result-"+userChoice+"v"+computerChoice+".jpg";
+              console.log(showImage)
+
               $('.item').remove();
-              $('#result').prepend('<img class="item" src="images/result-svs.jpg" />')
+              $('#result').prepend('<img class="item" src="images/result-svs.jpg" >')
               $('#result').append('<p class="item"> ' + userChoice + ' vs. ' + computerChoice + '</p>');
 
           break;
